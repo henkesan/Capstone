@@ -71,23 +71,27 @@ ul li{
 }
 
 .main-content{
+
   display: flex;
-
-}
-
-.main-story{
-  width: 60%;
   margin: 32px 24px;
+
 }
 
-.main-story img{
+.main-info{
+ width: 40%;
+
+}
+.main-photo{
+  width: 60%;
+}
+.main-photo img{
   max-width: 100%;
 
 }
 
 .main-list-content{
-  display: flex;
 
+  width: 40%;
   margin-left: 16px;
   margin-top:32px;
 }
