@@ -87,15 +87,33 @@ ul li{
 .main-photo img{
   max-width: 100%;
 
+
+
 }
 
 .main-list-content{
 
-  width: 40%;
   margin-left: 16px;
-  margin-top:32px;
+  }
+
+.item{
+  display: flex;
 }
-.list-photo{
+.item img{
   width: 35%;
-  height: auto;
+  height: 35%;
+  margin: 0 16px 16px 16px;
+}
+
+.learning{
+  display: flex;
+  align-items: center;
+
+
+}
+.item-learning{
+
+}
+.info-learning{
+
 }
