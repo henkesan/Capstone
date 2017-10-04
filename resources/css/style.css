@@ -15,6 +15,19 @@ body{
   display: flex;
 }
 
+h1{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p{
+  14px;
+}
 nav{
   display: flex;
   align-items: center;
@@ -70,6 +83,18 @@ ul li{
   width: auto;
 }
 
+.button{
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  color: white;
+  text-align: center;
+  padding: 8px;
+}
+.banner-info h3{
+  color: white;
+  margin: 8px auto;
+
+}
 .main-content{
 
   display: flex;
@@ -86,9 +111,6 @@ ul li{
 }
 .main-photo img{
   max-width: 100%;
-
-
-
 }
 
 .main-list-content{
@@ -96,24 +118,49 @@ ul li{
   margin-left: 16px;
   }
 
+  #list-style{
+    background-color: lightgrey;
+  }
+
 .item{
   display: flex;
+  text-align: center;
 }
 .item img{
   width: 35%;
   height: 35%;
-  margin: 0 16px 16px 16px;
+  margin: 16px;
 }
 
 .learning{
-  display: flex;
-  align-items: center;
+  background-color: lightgray;
+}
+.heading{
+  text-align: center;
+}
+.heading h1{
+  font-weight: bold;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
 
+.info-learning{
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: auto 72px;
 
 }
 .item-learning{
-
+ margin: 16px;
+ background-color: white;
 }
-.info-learning{
 
+.item-learning img{
+  height: auto;
+  max-width: 306px;
+}
+
+.main-video {
+  max-width: 60%;
 }
