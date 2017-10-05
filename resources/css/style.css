@@ -2,13 +2,17 @@ body{
   background-color: white;
   font-size: 18px;
   line-height: 1.4;
-  font-style: helvetica;
+  font-family: helvetica;
   margin: 0;
 }
 
 .container{
   width: 1160px;
   margin: auto;
+}
+
+.container span:last-child{
+  color: lightgrey;
 }
 
 .flex{
@@ -79,7 +83,8 @@ ul li{
 }
 
 .banner-info{
-
+  display: flex;
+  flex-direction: column;
   width: auto;
 }
 
@@ -103,7 +108,7 @@ ul li{
 }
 
 .main-info{
- width: 40%;
+ width: 35%;
 
 }
 .main-photo{
@@ -161,6 +166,25 @@ ul li{
   max-width: 306px;
 }
 
+.video-content{
+
+}
 .main-video {
-  max-width: 60%;
+ width: 60%;
+}
+
+.main-video video{
+  max-width: 100%;
+}
+.content{
+  display: flex;
+}
+
+.content{
+  border-top: 1px solid grey;
+  padding: 16px 24px;
+  margin-top: 32px;
+}
+.copyright{
+  flex-grow: 1;
 }
