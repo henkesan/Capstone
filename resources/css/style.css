@@ -1,6 +1,6 @@
 body{
   background-color: white;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.4;
   font-family: helvetica;
   margin: 0;
@@ -10,9 +10,12 @@ body{
   width: 1160px;
   margin: auto;
 }
-
-.container span:last-child{
+nav span{
+  font-weight: bold;
+}
+nav span:last-child{
   color: lightgrey;
+  font-weight: normal;
 }
 
 .flex{
@@ -20,29 +23,30 @@ body{
 }
 
 h1{
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: bold;
+
 }
 
 h2{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
+
 }
 
 p{
-  14px;
+  font-size: 0.9rem;
 }
 nav{
   display: flex;
   align-items: center;
-  margin-bottom: 10rem;
   justify-content: space-between;
 }
 
 nav img{
-  height: 1.5rem;
+  height: 2rem;
   margin-left: 2rem;
-  margin-right: 1rem;
+  margin-right: 0;
 }
 
 nav div{
@@ -86,8 +90,13 @@ ul li{
   display: flex;
   flex-direction: column;
   width: auto;
+  justify-content: center;
+  width: 30%;
 }
 
+.banner-content .banner-info h1, h2{
+  margin-bottom: 2rem;
+}
 .button{
   border-radius: 4px;
   background-color: #4a4a4a;
@@ -101,14 +110,12 @@ ul li{
 
 }
 .main-content{
-
   display: flex;
-  margin: 32px 24px;
-
+  margin: 32px 0px 32px 24px;
 }
 
 .main-info{
- width: 35%;
+ width: 40%;
 
 }
 .main-photo{
@@ -117,20 +124,35 @@ ul li{
 .main-photo img{
   max-width: 100%;
 }
+.main-photo h1{
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.main-photo p{
+  margin-right: 2rem;
+}
 
 .main-list-content{
-
   margin-left: 16px;
   }
-
-  #list-style{
+.list-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.list-content h2, p{
+  margin-bottom: 0.5rem;
+}
+#first-img{
+  margin-top: 0;
+}
+#list-style{
     background-color: lightgrey;
   }
 
 .item{
   display: flex;
-  text-align: center;
-}
+  }
 .item img{
   width: 35%;
   height: 35%;
@@ -166,6 +188,17 @@ ul li{
   max-width: 306px;
 }
 
+.item-learning h2{
+  margin: 16px;
+}
+
+.item-learning h3{
+  margin: 0px 16px 8px 16px;
+}
+
+.item-learning p{
+  margin: 0 16px 24px 16px;
+}
 .video-content{
 
 }
@@ -179,7 +212,14 @@ ul li{
 .content{
   display: flex;
 }
+footer span{
+  margin-right: 24px;
+}
 
+footer a{
+  text-decoration: none;
+  color: black;
+}
 .content{
   border-top: 1px solid grey;
   padding: 16px 24px;
