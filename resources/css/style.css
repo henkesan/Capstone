@@ -147,7 +147,7 @@ ul li{
 
 .item{
   display: flex;
-  text-align: center;
+  
 }
 .item img{
   width: 35%;
