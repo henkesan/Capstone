@@ -41,9 +41,9 @@ nav{
 }
 
 nav img{
-  height: 1.5rem;
-  margin-left: 2rem;
-  margin-right: 1rem;
+  height: 24px;
+  margin-left: 32px;
+  margin-right: 16px;
 }
 
 .desktop span:last-child{
@@ -57,13 +57,14 @@ nav div{
 ul{
   display: flex;
   list-style: none;
+  justify-content: space-between;
 }
 
 ul li{
   display: inline;
-  padding-right: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .mobile{
   display: none;
@@ -109,7 +110,7 @@ ul li{
   margin: 8px 0 24px 0;
 }
 
-.banner-info h3{
+.banner-info .button h2{
   color: white;
   margin: 8px auto;
 
@@ -169,9 +170,10 @@ ul li{
   margin: 16px;
 }
 
-#first-img{
+#first-photo{
   margin-top: 0px;
 }
+
 .learning{
   background-color: lightgray;
 }
@@ -186,6 +188,7 @@ ul li{
 
 .info-learning{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   max-width: 100%;
   margin: auto 56px;
@@ -261,6 +264,91 @@ footer a{
 header .mobile{
    display: block;
    width: 100%;
-
  }
+
+ ul li{
+   padding-right: 0px;
+ }
+ .banner-content{
+   display: block;
+   padding: 0px;
+ }
+ .banner-photo{
+   width: auto;
+   margin: 0px;
+ }
+
+ .banner-info{
+   width: auto;
+   padding: 32px 16px;
+ }
+
+.main-list-content{
+  margin: 0px;
+}
+ .main-photo{
+   display: none;
+ }
+
+ .main-info{
+   width: auto;
+ }
+
+ .item{
+   display: block;
+ }
+
+ .item img{
+
+   height: 35%;
+   margin: 0px;
+ }
+
+ .item{
+   height: 400px;
+   width: 100%;
+   }
+
+   .learning{
+       background-color: white;
+   }
+  .info-learning{
+    display: block;
+    margin: 0px;
+
+
+    }
+
+  .item-learning{
+    background-color: lightgrey;
+  }
+
+  .item-learning h2{
+    padding: 16px;
+    margin-bottom: 8px;
+  }
+   .item-learning img, h3, p{
+     display: none;
+   }
+
+   .main-video{
+     margin: 0px;
+     width: 100%;
+   }
+
+   .main-video h1, p{
+     display: none;
+   }
+
+   .main-info{
+     display: none;
+   }
+
+    .content .policy {
+      display: none;
+    }
+
+    footer span{
+      margin: 0px;
+    }
 }
